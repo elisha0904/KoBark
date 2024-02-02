@@ -3,7 +3,7 @@
 
 Langchain을 활용하여 소설 속 인물의 속성과 감정을 파악한 뒤, 그에 맞는 음성으로 TTS를 생성하는 한국어 오디오북 프로젝트입니다.
 
-### Environment
+### 🍀 Environment
 
 아래 환경에서 학습 및 구현되었으며, 이외의 환경에서는 테스트를 진행하지 않았습니다.
 
@@ -23,7 +23,7 @@ pip install -r requirement.txt
 
 학습시킨 Quantizer 파일은 용량 문제로 업로드하지 않습니다.
 
-## ① Data Preprocessing 
+## 1️⃣ Data Preprocessing 
 
 gitmylo의 코드를 참고하여, 우선 Quantizer를 학습시켜야 합니다.
 
@@ -53,7 +53,7 @@ python process.py --path Literature --mode prepare2
 
 이제 Quantizer 학습을 위한 데이터 전처리가 모두 끝났습니다.
 
-## ② Training Quantizer
+## 2️⃣ Training Quantizer
 
 아래의 코드를 실행하여 학습을 진행합니다.
 
@@ -71,7 +71,7 @@ notebook 파일을 끝까지 실행했다면, `out_file`의 경로에 npz 파일
 
 생성된 npz가 제대로 음성 스타일을 카피하였는지 테스트하기 위해, [Bark demo Colab](https://colab.research.google.com/drive/1eJfA2XUa-mXwdMy7DoYKVYHI1iTd9Vkt?usp=sharing)을 사용하셔도 좋습니다.
 
-## ③ Let's AudioBook!
+## 3️⃣ Let's AudioBook!
 
 이제 소설을 읽을 차례입니다.
 
