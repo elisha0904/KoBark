@@ -1,0 +1,8 @@
+git+https://github.com/huggingface/transformers.git
+torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+accelerate==0.20.3
+numpy==1.22.0
+audiolm-pytorch==1.1.4
+Langchain
+openai
+tiktoken
