@@ -75,7 +75,7 @@ notebook 파일을 끝까지 실행했다면, `out_file`의 경로에 npz 파일
 
 이제 소설을 읽을 차례입니다.
 
-`app_modified.ipynb` 파일을 실행하여, 노트북 파일 내의 과정을 차례대로 따라하면 됩니다.
+`demo/main.ipynb` 파일을 실행하여, 노트북 파일 내의 과정을 차례대로 따라하면 됩니다.
 
 ### Acknowledgement
 
